@@ -1,0 +1,96 @@
+:root {
+  --rich-black: #04151fff;
+  --nickel: #697268ff;
+  --cadet-grey: #95a3a4ff;
+  --col-blue: #b7d1daff;
+  --ala-white: #e2e8ddff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.header,
+.footer,
+ul {
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--rich-black);
+}
+
+li {
+  list-style-type: none;
+  margin: 0 10%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  height: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  height: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.form-container {
+  position: fixed;
+  top: 40%;
+  bottom: 40%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--ala-white);
+}
+
+form {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fields {
+  margin: 5% 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: space-around;
+  text-align: right;
+}
+
+.field {
+  font-size: large;
+  padding: 5% 0;
+  margin: 2% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  font-size: medium;
+  padding: 2% 5%;
+}
+
+input {
+  font-size: large;
+}
